@@ -1,24 +1,10 @@
-body
-{
-    background-color: rgb(110, 160, 34);
-}
 
-.header
+.container
 {
-    padding-block: 1ch;
+    padding: 5px;
     float: center;
     background-color: rgb(185, 196, 196);
-    border-radius: 45%;
-}
-
-.header1
-{
-    border-style: solid;
-    width: auto;
-    height: 100%;
-    float: center;
-    text-align: center;
-    background-color: rgb(180, 43, 43);
+    border-radius: 50%;
 }
 
 .Content
