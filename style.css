@@ -18,5 +18,8 @@
     border-radius: 50%;
     width: 50%;
     height: auto;
+    border-color: aliceblue;
+    border-width: 10px;
+    border-style: double;
 }
 
