@@ -23,3 +23,34 @@
     border-style: double;
 }
 
+.Main
+{
+    text-align: center;
+}
+
+.myInfo
+{
+    display: none;
+}
+
+.resume
+{
+    display: none;
+}
+
+.about
+{
+    display: none;
+}
+
+.project
+{
+    display: none;
+}
+
+.contact   
+{
+    display: none;
+}
+
+
