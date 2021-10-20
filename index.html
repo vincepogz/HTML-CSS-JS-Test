@@ -10,6 +10,7 @@
 
 <body style="background-color: #00b08d;"> 
   <br>
+
   <div class="container" style="text-align: center; background-color: #d7dee1;">
       <hr>
         <h1>Vince Pamolarco</h1>
@@ -17,30 +18,34 @@
   </div>
   <br>
   <div class="button" style="text-align: center;">
-  <button onclick="clickButton()">About Me</button>
-  </div>
+  <button type="button" class="btn btn-secondary btn-sm" onclick="aboutButton()">About Me</button>
+  <button type="button" class="btn btn-secondary btn-sm" onclick="resumeButton()">Resume</button>
+  <button type="button" class="btn btn-secondary btn-sm" onclick="projectButton()">Project</button>
+  <button type="button" class="btn btn-secondary btn-sm" onclick="contactButton()">Contact</button>  
+</div>
   <br><br>
-  <div class="Main">
+  <div class="Main" id="main">
     <img class=img1 src="Photos/HEADSHOT.jpg" alt="Vince">
   </div>
+
   <div class="row">
     <div class = "col-md-6">
-      <div class="myInfo">
+      <div class="myInfo" id="Info">
               <img class=img1 src="Photos/HEADSHOT.jpg" alt="Vince">
       </div>
     </div>
     <div class = "col-md-6" style="text-align: justify;">
       <div class="stuff">
-        <div class="resume">
+        <div class="Stuff" id="resume">
          Resume
         </div>
-       <div class="about">
+       <div class="Stuff" id="about">
           About Me
        </div>
-        <div class="project">
+        <div class="Stuff" id="project">
          Projects
         </div>
-        <div class="contact">
+        <div class="Stuff" id="contact">
           Contact Me
         </div>
       </div>
@@ -48,5 +53,5 @@
   </div>
 
 </body>
-<script src="index.js"></script>
 </html>
+<script src="index.js"></script>
